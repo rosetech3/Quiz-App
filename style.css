@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: #fff;
+    background-image: linear-gradient(315deg, #bBc6db 0%, #f5f7f7 100%);
+    font-family: sans-serif;
+    display: block;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    justify-content: center;
+    margin: auto;
+}
+
+.quiz-container {
+    margin-top: 2rem;
+    margin-left: 25%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(245, 248, 251);
+    border-radius: 10px;
+    box-shadow: 0 010px 2px rgba(100, 100, 100, 0.1);
+    width: 600px;
+    overflow: hidden;
+}
+
+.text {
+    padding: 5px;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+
+/* 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}  */
+
+header {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    background-color: rgb(33, 33, 255);
+}
+
+
+/* 
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(202, 204, 204);
+} */
+
+.items {
+    display: flex;
+}
+
+.items .logo {
+    color: #fff;
+    text-align: left;
+    margin: 5px;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav .navlist {
+    color: #fff;
+    right: 5px;
+    display: flex;
+    list-style: none;
+    padding: 1rem;
+    margin: 10px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.nav .navlist .navlink {
+    padding: 3px 4px 0 34px;
+    text-align: right;
+    font-size: 1.3rem;
+    top: 3px;
+    color: #fff;
+    float: right;
+    /* padding: 1.3rem; */
+}
+
+.nav .navlist .navlink:hover {
+    color: rgb(255, 253, 251);
+    background-color: darkgoldenrod;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.header {
+    text-align: center;
+    padding: 4rem;
+}
+
+h2 {
+    padding: 1.3rem;
+    text-align: center;
+    margin: 0;
+}
+
+ul {
+    list-style-type: 1.2rem;
+    padding: 0;
+}
+
+ul li {
+    display: flex;
+    list-style: none;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+ul li label {
+    padding: 5px;
+    color: black;
+    display: flex;
+    cursor: pointer;
+}
+
+ul li label:hover {
+    color: #04adc4;
+}
+
+button {
+    background-color: #f4b342;
+    color: rgb(44, 43, 43);
+    border: none;
+    cursor: pointer;
+    font-size: 1.3rem;
+    font-family: inherit;
+    padding: 1.3rem;
+    width: 100%;
+    display: block;
+}
+
+button:hover {
+    color: rgb(253, 251, 249);
+    background-color: #04adc4;
+}
